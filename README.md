@@ -2,14 +2,14 @@
 
 **About me**
 
-I am Trying to build cool Tech stuff....
+<div style = 'display💠'>I am Trying to build cool Tech stuff....</div>
 <br>
 Still in the phase of learning
 <br>
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
 <br>
 <br>
-<div style = 'display:flex'>
+<div>
   ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
   <br>
   <br>

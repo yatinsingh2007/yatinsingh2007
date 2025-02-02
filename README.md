@@ -1,4 +1,10 @@
-## Hi there 👋
+#K.Yatin Singh
+
+**About me**
+
+I am Trying to build cool Tech stuff....
+Still in the phase of learning
+Reach me at: yatin4591@gmail.com
 
 <!--
 **yatinsingh2007/yatinsingh2007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

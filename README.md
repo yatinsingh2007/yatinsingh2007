@@ -9,8 +9,11 @@ Still in the phase of learning
 ## Skills
 <br>
 . HTML&CSS
+<br>
 . Python
+<br>
 . JavaScript
+<br>
 <br>
 <br>
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323

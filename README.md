@@ -1,4 +1,5 @@
-# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is K.Yatin Singh</h1>
+# K.Yatin Singh
+
 **About me**
 
 I am Trying to build cool Tech stuff....
@@ -6,7 +7,6 @@ I am Trying to build cool Tech stuff....
 Still in the phase of learning
 <br>
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
-
 <br>
 <br>
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)

@@ -9,7 +9,7 @@ Still in the phase of learning
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
 <br>
 <br>
-<div display = 'center'>
+<div display = 'flex'>
   ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
   <br>
   <br>

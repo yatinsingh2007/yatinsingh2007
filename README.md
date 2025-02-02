@@ -6,7 +6,7 @@ I am Trying to build cool Tech stuff....
 Still in the phase of learning
 <br>
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
-https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif?cid=790b7611n9p47ft0wvcsv81pae6eato9td7hlur649w1xl70&ep=v1_gifs_search&rid=giphy.gif&ct=g
+
 <br>
 <br>
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)

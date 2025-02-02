@@ -6,6 +6,11 @@ I am Trying to build cool Tech stuff....
 <br>
 Still in the phase of learning
 <br>
+## Skills
+<br>
+. HTML&CSS
+. Python
+. JavaScript
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
 <br>
 <br>

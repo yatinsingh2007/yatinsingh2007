@@ -11,6 +11,8 @@ Still in the phase of learning
 . HTML&CSS
 . Python
 . JavaScript
+<br>
+<br>
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
 <br>
 <br>

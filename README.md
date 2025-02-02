@@ -7,6 +7,8 @@ I am Trying to build cool Tech stuff....
 Still in the phase of learning
 <br>
 Reach me at: yatin4591@gmail.com
+<br>
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
 
 <!--
 **yatinsingh2007/yatinsingh2007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

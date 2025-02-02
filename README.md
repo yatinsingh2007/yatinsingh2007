@@ -2,7 +2,7 @@
 
 **About me**
 
-<div>I am Trying to build cool Tech stuff....</div>
+I am Trying to build cool Tech stuff....
 <br>
 Still in the phase of learning
 <br>

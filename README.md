@@ -8,13 +8,13 @@ Still in the phase of learning
 <br>
 Reach me at: yatin4591@gmail.com , www.linkedin.com/in/yatin-singh-b37817323
 <br>
-<hr>
+<br>
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
 <br>
-<hr>
+<br>
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=dracula)
 <br>
-<hr>
+<br>
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=dark)
 <br>
 <br>

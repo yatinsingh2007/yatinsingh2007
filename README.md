@@ -20,3 +20,5 @@
 - 💻 I am an Aspiring Web Developer, I enjoy creating responsive, aesthetically pleasing, and functional web applications that offer a seamless user experience.
 - 🔍 Currently, I'm diving into Data Structures and Algorithms (DSA) with Python to enhance my problem-solving abilities and into the world of webdev starting with frontend.
 - 📫 Reach me at: yatin4591@gmail.com
+
+<h1><img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30px" height="38"> Languages and Tools</h1>

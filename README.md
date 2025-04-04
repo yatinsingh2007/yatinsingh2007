@@ -42,3 +42,7 @@
         <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatinsingh2007&theme=highcontrast" height="180em" />
     </a>
 </div>
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0111.gif" width="1000" height="2" />
+
+<h2 align="center">Thank You for Visiting and Supporting 🫶</h2>
+<p align="right"><a href="#top">Back to TOP 🔝 </a></p>

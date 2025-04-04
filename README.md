@@ -1,7 +1,7 @@
 <h1 align="center"> Hi,<img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" height="40" width="40" /> I'm <a href="https://www.linkedin.com/in/yatin-singh-b37817323/" target="_blank">Yatin Singh</a></h1>
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=26&duration=3000&pause=500&color=FDFEFE&background=2A2E3425&center=true&vCenter=true&&lines=CSE-AI'24+Undergrad;Web+Developer;Open-Source+Contributor;Aspiring+Software+Engineer)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=26&duration=3000&pause=500&color=FDFEFE&background=2A2E3425&center=true&vCenter=true&&lines=CS-AI'24+Undergrad;Aspiring+Web+Developer;Aspiring+Software+Engineer)](https://git.io/typing-svg)
 
 </div>
 

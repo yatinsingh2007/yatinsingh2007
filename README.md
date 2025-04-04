@@ -30,3 +30,15 @@
 <a href="https://tailwindcss.com/" target="_blank"> <img src="https://github.com/rahuldkjain/github-profile-readme-generator/blob/master/src/images/icons/FrontendDevelopment/css.svg" alt="css" width="40" height="40"/> </a> 
 <a href="" target="_blank"> <img src="https://img.icons8.com/nolan/512/github.png" alt="git" width="40" height="40"/> </a>
 </p>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<h3 align="center">Statistics</h3>
+<div align="center">
+    <a href="https://github.com/Dhanvin1520">
+        <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatinsingh2007&theme=highcontrast" height="180em" />
+        <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatinsingh2007&theme=highcontrast" height="180em" />
+        <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yatinsingh2007&theme=highcontrast" height="180em" />
+        <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatinsingh2007&theme=highcontrast" height="180em" />
+    </a>
+</div>

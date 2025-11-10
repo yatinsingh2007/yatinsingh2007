@@ -12,7 +12,6 @@
 
 - 👨‍🎓 Second-year BTech CSE (AI) Undergrad  
 - 💻 Aspiring **Full Stack Web Developer**  
-- 🚀 Learning Django, React, and APIs
 - 🧠 Improving my **DSA in Python**  
 - 📫 Reach me at: **yatinsingh4591@gmail.com**
 

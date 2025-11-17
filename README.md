@@ -53,7 +53,9 @@
   </a>
 
   <a href="https://expressjs.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40" alt="Express.js" style="background:white; padding:6px; border-radius:8px;"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40" alt="Express.js"/>
+  </a>
+
   </a>
 
   <a href="https://www.djangoproject.com/" target="_blank">

@@ -11,9 +11,9 @@
 ### 🧑‍💻 About Me
 
 - 👨‍🎓 Second-year BTech CSE (AI) Undergrad  
-- 💻 Aspiring **Full Stack Web Developer**  
-- 🧠 Improving my **DSA in Python**  
-- 📫 Reach me at: **yatinsingh4591@gmail.com**
+- 💻 Aspiring **Full Stack Web Developer**
+- Diving Deeper into **AI/ML** and  **Agentic Workflows**
+- 📫 Reach me at: **yatin.singh.dev@gmail.com**
 
 ---
 

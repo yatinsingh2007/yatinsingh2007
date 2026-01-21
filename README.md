@@ -148,8 +148,6 @@ mindmap
 
 </div>
 
-![Snake animation](https://github.com/yatinsingh2007/yatinsingh2007/blob/output/github-contribution-grid-snake.svg)
-
 <br>
 
 ## 💼 What I'm Working On
@@ -227,6 +225,8 @@ mindmap
 <br><br>
 
 💬 **Open to collaborations, internships, and interesting projects!**
+
+![Snake animation](https://github.com/yatinsingh2007/yatinsingh2007/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 

@@ -148,6 +148,8 @@ mindmap
 
 </div>
 
+![Snake animation](https://github.com/yatinsingh2007/yatinsingh2007/blob/output/github-contribution-grid-snake.svg)
+
 <br>
 
 ## 💼 What I'm Working On
@@ -173,7 +175,7 @@ mindmap
 <div align="center">
 
 <a href="https://github.com/yatinsingh2007/Event-Management-System">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=Event-Management-System&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=VintiCode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
 </a>
 
 </div>

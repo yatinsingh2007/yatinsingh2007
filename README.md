@@ -42,7 +42,7 @@ const yatin = {
     databases: ["MongoDB", "PostgreSQL", "MySQL", "Prisma"],
     tools: ["Git", "VS Code", "Postman"],
   },
-  currentlyLearning: "Advanced AI/ML & Cloud Architecture",
+  currentlyLearning: "AI/ML , Devops & Agentic AI",
   funFact: "I debug faster with coffee ☕",
 };
 ```
@@ -56,7 +56,7 @@ const yatin = {
 ### 💻 Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,c,cpp" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css" />
 </p>
 
 ### 🎨 Frontend Development
@@ -68,13 +68,13 @@ const yatin = {
 ### ⚙️ Backend Development
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,django" />
 </p>
 
 ### 🗄️ Databases & ORM
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,prisma,sqlite" />
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,prisma" />
 </p>
 
 ### 🔧 Tools & Technologies

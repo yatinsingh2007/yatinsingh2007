@@ -1,138 +1,269 @@
-<h1 align="center">Hi there <img src="https://raw.githubusercontent.com/nixin72/nixin72/master/wave.gif" width="40" height="40">, I'm <a href="https://www.linkedin.com/in/yatin-singh-b37817323/" target="_blank">Yatin Singh</a></h1>
-
 <div align="center">
+  
+  <!-- Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Yatin%20Singh&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=26&duration=3000&pause=500&color=FDFEFE&background=2A2E3425&center=true&vCenter=true&lines=CS-AI'28+Undergrad;Aspiring+Web+Developer;Aspiring+Software+Engineer)](https://git.io/typing-svg)
+  <!-- Typing Animation -->
 
-</div>
-
----
-
-### 🧑‍💻 About Me
-
-- 👨‍🎓 Second-year BTech CSE (AI) Undergrad  
-- 💻 Aspiring **Full Stack Web Developer**
-- Diving Deeper into **AI/ML** and  **Agentic Workflows**
-- 📫 Reach me at: **yatin.singh.dev@gmail.com**
-
----
-
-### 🛠️ Languages and Tools
-
-<p align="left">
-
-  <!-- Languages -->
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40" alt="Python"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" height="40" alt="HTML5"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" height="40" alt="CSS3"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript"/>
-  </a>
-
-  <a href="https://www.typescriptlang.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript"/>
-  </a>
-
-
-  <!-- Frameworks / Libraries -->
-  <a href="https://reactjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" alt="React"/>
-  </a>
-
-  <a href="https://nodejs.org" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Node.js"/>
-  </a>
-
-  <a href="https://expressjs.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40" alt="Express.js"/>
-  </a>
-
-  </a>
-
-  <a href="https://www.djangoproject.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="40" height="40" alt="Django"/>
-  </a>
-
-  <a href="https://www.mongodb.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="MongoDB"/>
-  </a>
-
-  <a href="https://nextjs.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40" height="40" alt="Next.js" style="background:white; padding:6px; border-radius:8px;"/>
-  </a>
-
-  <a href="https://www.prisma.io/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" width="40" height="40" alt="Prisma ORM"/>
-  </a>
-
-  <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySQL"/>
-  </a>
-
-  <a href="https://www.postgresql.org/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40" height="40" alt="PostgreSQL"/>
-  </a>
-
-  <!-- Tools -->
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" alt="Git"/>
-  </a>
-
-
-</p>
-
----
-
-### 🤝 Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/yatin-singh-b37817323/" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="60" alt="LinkedIn"/>
-  </a>
-
-  <a href="https://www.instagram.com/yatinsingh2007/" target="_blank">
-    <img src="https://user-images.githubusercontent.com/74038190/235294013-a33e5c43-a01c-43f6-b44d-a406d8b4ab75.gif" width="60" alt="Instagram"/>
-  </a>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yatinsingh2007&theme=highcontrast" height="180em" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yatinsingh2007&theme=highcontrast" height="180em" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yatinsingh2007&theme=highcontrast" height="180em" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatinsingh2007&theme=highcontrast" height="180em" />
-</div>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yatinsingh2007&style=for-the-badge" alt="Profile views" />
-</p>
-
----
-
-### 💫 Extras
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=CS-AI'28+Undergrad+%7C+Full+Stack+Developer;Building+the+Future+with+AI+%26+Web+Tech+%F0%9F%9A%80;Passionate+about+Agentic+Workflows+%F0%9F%A4%96" alt="Typing SVG" /></a>
 
   <br>
 
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="600">
+  <!-- Social Badges -->
+  <p>
+    <a href="https://www.linkedin.com/in/yatin-singh-b37817323/">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="mailto:yatin.singh.dev@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://www.instagram.com/yatinsingh2007/">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    </a>
+  </p>
+
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+</div>
+
+<br>
+
+## 🎯 About Me
+
+```typescript
+const yatin = {
+  education: "BTech CSE (AI) - Class of 2028",
+  role: "Full Stack Web Developer",
+  currentFocus: ["AI/ML", "Agentic Workflows", "Web Development"],
+  askMeAbout: ["Web Dev", "AI", "Tech", "Chess"],
+  technologies: {
+    frontEnd: ["React", "Next.js", "TypeScript", "HTML/CSS"],
+    backEnd: ["Node.js", "Express", "Django"],
+    databases: ["MongoDB", "PostgreSQL", "MySQL", "Prisma"],
+    tools: ["Git", "VS Code", "Postman"],
+  },
+  currentlyLearning: "Advanced AI/ML & Cloud Architecture",
+  funFact: "I debug faster with coffee ☕",
+};
+```
+
+<br>
+
+## 🛠️ Tech Stack & Tools
+
+<div align="center">
+
+### 💻 Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,c,cpp" />
 </p>
 
----
+### 🎨 Frontend Development
 
-### 🙏 Thank You for Visiting and Supporting 🫶
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vite" />
+</p>
 
-<p align="center"><a href="#top">🔝 Back to Top</a></p>
+### ⚙️ Backend Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi" />
+</p>
+
+### 🗄️ Databases & ORM
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,prisma,sqlite" />
+</p>
+
+### 🔧 Tools & Technologies
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,docker" />
+</p>
+
+</div>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=yatinsingh2007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=yatinsingh2007&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
+</div>
+
+<br>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yatinsingh2007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" />
+  <img width="49%" src="https://github-contributor-stats.vercel.app/api?username=yatinsingh2007&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=yatinsingh2007&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" width="100%" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yatinsingh2007&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF" width="100%" />
+</div>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br>
+
+## 🎯 Current Focus
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((Yatin Singh))
+    Web Development
+      Full Stack Projects
+      React & Next.js
+      API Development
+    AI & ML
+      Agentic Workflows
+      Machine Learning
+      Deep Learning
+    Education
+      CS-AI Undergrad
+      Continuous Learning
+    Skills
+      Problem Solving
+      Team Collaboration
+```
+
+</div>
+
+<br>
+
+## 💼 What I'm Working On
+
+<div align="center">
+
+| 🚀 Projects             | 📚 Learning       | 🎯 Goals                  |
+| ----------------------- | ----------------- | ------------------------- |
+| Full Stack Web Apps     | Advanced AI/ML    | Build Scalable Systems    |
+| Event Management System | Agentic Workflows | Master Cloud Architecture |
+| API Development         | System Design     | Contribute to Open Source |
+
+</div>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br>
+
+## 🌟 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/yatinsingh2007/Event-Management-System">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=Event-Management-System&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+</a>
+
+</div>
+
+<br>
+
+## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yatinsingh2007&theme=tokyonight" width="100%" />
+</div>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br>
+
+## 🎮 When I'm Not Coding
+
+<div align="center">
+
+| 💡 Interests                  |
+| ----------------------------- |
+| 🎵 Listening to Music         |
+| 📖 Reading Tech Blogs         |
+| ♟️ Playing Chess              |
+| 🌐 Exploring New Tech         |
+| 🤝 Networking & Collaboration |
+
+</div>
+
+<br>
+
+## 📫 Let's Connect!
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/yatin-singh-b37817323/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" />
+</a>
+<a href="mailto:yatin.singh.dev@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Reach%20Out-red?style=for-the-badge&logo=gmail" />
+</a>
+<a href="https://www.instagram.com/yatinsingh2007/">
+  <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram" />
+</a>
+
+<br><br>
+
+💬 **Open to collaborations, internships, and interesting projects!**
+
+</div>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br>
+
+## 💭 Quote of the Day
+
+<div align="center">
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+<br>
+
+## 📊 Profile Views
+
+<div align="center">
+  
+  <img src="https://komarev.com/ghpvc/?username=yatinsingh2007&style=for-the-badge&color=58A6FF" />
+  
+  <br><br>
+  
+  **Show some ❤️ by starring ⭐ some repositories!**
+
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+</div>
+
+<div align="center">
+  
+  ### ⭐ From [yatinsingh2007](https://github.com/yatinsingh2007) with 💙
+  
+</div>

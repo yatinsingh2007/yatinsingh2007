@@ -123,31 +123,6 @@ const yatin = {
 
 <br>
 
-## 🎯 Current Focus
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((Yatin Singh))
-    Web Development
-      Full Stack Projects
-      React & Next.js
-      API Development
-    AI & ML
-      Agentic Workflows
-      Machine Learning
-      Deep Learning
-    Education
-      CS-AI Undergrad
-      Continuous Learning
-    Skills
-      Problem Solving
-      Team Collaboration
-```
-
-</div>
-
 <br>
 
 ## 💼 What I'm Working On

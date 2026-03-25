@@ -127,16 +127,6 @@ const yatin = {
 
 ## 💼 What I'm Working On
 
-<div align="center">
-
-| 🚀 Projects             | 📚 Learning       | 🎯 Goals                  |
-| ----------------------- | ----------------- | ------------------------- |
-| Full Stack Web Apps     | Advanced AI/ML    | Build Scalable Systems    |
-| Event Management System | Agentic Workflows | Master Cloud Architecture |
-| API Development         | System Design     | Contribute to Open Source |
-
-</div>
-
 <br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">

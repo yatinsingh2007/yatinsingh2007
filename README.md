@@ -5,7 +5,7 @@
 
   <!-- Typing Animation -->
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=CS-AI'28+Undergrad+%7C+Full+Stack+Developer;Building+the+Future+with+AI+%26+Web+Tech+%F0%9F%9A%80;Passionate+about+Agentic+Workflows+%F0%9F%A4%96" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=CS-AI'28+Undergrad+%7C+Full+Stack+Developer;Building+the+Future+with+AI+%26+Web+Tech+%F0%9F%9A%80;Passionate+about+Agentic+Workflows+%F0%9F%A4%96" alt="Typing SVG" /></a>
 
   <br>
 
@@ -32,17 +32,17 @@
 
 ```typescript
 const yatin = {
-  education: "BTech CSE (AI) - Class of 2028",
-  role: "Full Stack Web Developer",
+  education: "BTech CSE (AI) - Class of 2028 @ Newton School of Technology",
+  role: "Full Stack Web Developer & AI Enthusiast",
   currentFocus: ["AI/ML", "Agentic Workflows", "Web Development"],
   askMeAbout: ["Web Dev", "AI", "Tech", "Chess"],
   technologies: {
-    frontEnd: ["React", "Next.js", "TypeScript", "HTML/CSS"],
-    backEnd: ["Node.js", "Express", "Django"],
+    frontEnd: ["React", "Next.js", "Tailwind CSS", "TypeScript", "HTML/CSS"],
+    backEnd: ["Node.js", "Express", "Django", "GoLang"],
     databases: ["MongoDB", "PostgreSQL", "MySQL", "Prisma"],
-    tools: ["Git", "VS Code", "Postman"],
+    tools: ["Git", "Docker", "VS Code", "Postman", "Terraform", "AWS (ECS/S3)"],
   },
-  currentlyLearning: "AI/ML , Devops & Agentic AI",
+  currentlyLearning: "AI/ML, DevOps & Agentic AI",
   funFact: "I debug faster with coffee ☕",
 };
 ```
@@ -56,7 +56,7 @@ const yatin = {
 ### 💻 Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,go" />
 </p>
 
 ### 🎨 Frontend Development
@@ -80,10 +80,28 @@ const yatin = {
 ### 🔧 Tools & Technologies
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,docker" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,docker,aws,terraform" />
 </p>
 
 </div>
+
+<br>
+
+## 💼 Experience
+
+### 🏢 **ByteBlock Technologies** — *Full Stack Intern*
+**June 2026 – September 2026** | *Remote*
+- **Built end-to-end full-stack features** across frontend, backend, database, and authentication layers.
+- **Integrated REST APIs & third-party services** and database systems to support complex business workflows.
+- **Collaborated in agile development cycles** with developers and project stakeholders to deliver client-facing applications from development through deployment.
+- **Optimized & debugged applications** to ensure functionality, high performance, and reliability.
+
+### 🏢 **AssuredGig** — *Full Stack Intern*
+**June 2025 – August 2025** | *Remote*
+- **Optimized mobile performance** significantly, raising performance scores from `35% → 75%`.
+- **Architected Django & DRF backend APIs** to support complex platform workflows and RESTful endpoints.
+- **Delivered MVP platform** with cross-functional teams, implementing secure payment integration flows.
+- **Enhanced user experience** with real-time tracking and performance-driven design.
 
 <br>
 
@@ -127,6 +145,10 @@ const yatin = {
 
 ## 💼 What I'm Working On
 
+- 🚀 **Next.js Developer Portfolio**: Building a highly interactive, dark-themed developer portfolio featuring custom timeline experiences, a dynamic project gallery, and premium Framer Motion animations (this repository!).
+- 🛍️ **Shopsmart**: Scaling a full-stack e-commerce project with Docker, Terraform, and AWS ECS/S3.
+- 🧠 **AI/ML & Agentic Workflows**: Researching multi-agent coordination architectures with LangGraph, RAG, and Large Language Models.
+
 <br>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -136,11 +158,32 @@ const yatin = {
 ## 🌟 Featured Projects
 
 <div align="center">
-
-<a href="https://github.com/yatinsingh2007/Event-Management-System">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=VintiCode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
-</a>
-
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://github.com/yatinsingh2007/shopsmart">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=shopsmart&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/yatinsingh2007/ReportLens-AI">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=ReportLens-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/yatinsingh2007/CreditIQ">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=CreditIQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/yatinsingh2007/VintiCode">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=VintiCode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>

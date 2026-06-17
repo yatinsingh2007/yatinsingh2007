@@ -162,7 +162,7 @@ const yatin = {
 
 <div align="center">
 
-`♟️ Chess`  ·  `🎵 Music`  ·  `📖 Tech Blogs`  ·  `🌐 New Tech`  ·  `🤝 Building with people`
+         `🎵 Music`  ·  `🌐 New Tech`  ·  `🤝 Building with people` . `Football`
 
 </div>
 

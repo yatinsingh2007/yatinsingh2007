@@ -46,7 +46,7 @@ const yatin = {
     backend:   ["Node.js", "Express", "Django", "GoLang"],
     databases: ["PostgreSQL", "MongoDB", "MySQL", "Prisma"],
     cloud:     ["Docker", "Terraform", "AWS (ECS / S3)"],
-    ML:        ["pandas" , "numpy" , "scikit-learn" , "tensorflow" , "langraph"
+    ML:        ["pandas" , "numpy" , "scikit-learn" , "tensorflow" , "langraph"]
   },
   learning: "System Design , ML & Deep Learning",
   funFact:  " I am a boring person  , i have no fun facts",

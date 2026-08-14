@@ -43,15 +43,25 @@
 
 <br/>
 
-<!-- ░░ TERMINAL & LIVE CONTRIBUTION HEATMAP ░░ -->
+<!-- ░░ TERMINAL DONUT ANIMATION & NEOFETCH SHOWCASE ░░ -->
 <div align="center">
 
-<h3><code>yatin@github ~ $ neofetch --contributions</code></h3>
+<h3><code>yatin@github ~ $ ./donut.c && neofetch</code></h3>
 
-<!-- Animated Neofetch SVG -->
-<img src="./info-card.svg" width="580" />
+<table>
+  <tr>
+    <td valign="top" align="center">
+      <!-- 3D Spinning ASCII Donut Terminal Animation -->
+      <img src="./terminal-donut.svg" width="370" />
+    </td>
+    <td valign="top" align="center">
+      <!-- Animated Neofetch Info Card -->
+      <img src="./info-card.svg" width="480" />
+    </td>
+  </tr>
+</table>
 
-<br/><br/>
+<br/>
 
 <!-- Live Animated Heatmap SVG -->
 <img src="./contrib-heatmap.svg" width="860" />
@@ -86,7 +96,7 @@ const yatin = {
   <summary><b>🔍 Read more about my engineering mindset</b></summary>
   <br/>
   
-  - 🚀 **Building for Performance**: I focus on clean code, optimized API contracts, and high lighthouse scores.
+  - 🚀 **Building for Performance**: Focus on clean code, optimized API contracts, and high lighthouse scores.
   - 🧠 **Agentic AI First**: Deep interest in RAG pipelines, autonomous agents using LangGraph, and specialized LLM applications.
   - 🛠️ **Full-Stack Flexibility**: From responsive Tailwind/Next.js interfaces to containerized Django/Node backend microservices.
 </details>
@@ -154,11 +164,11 @@ const yatin = {
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🧠 **Agentic AI Systems** | `LangGraph` · `Python` · `RAG` | Multi-agent coordination with vector databases and LLMs. |
-| 💳 **CreditIQ** | `Python` · `PyTorch` · `RAG` | Credit risk evaluation engine with 92% precision scoring. |
-| 📄 **ReportLens-AI** | `Next.js` · `Tailwind` · `AI` | Intelligent document insight analyzer powered by generative AI. |
-| 🛍️ **ShopSmart** | `Docker` · `Terraform` · `AWS` | Full-stack e-commerce scaled with ECS, S3, and microservices. |
-| 💻 **Dev Portfolio** | `Next.js 14` · `Framer Motion` | Interactive dark-themed portfolio with smooth micro-interactions. |
+| 🧠 **CreditIQ** | `Python` · `PyTorch` · `RAG` | Credit risk evaluation engine with 92% precision scoring. |
+| 🛡️ **Cordis-Sentinel** | `Python` · `AI` · `Security` | Intelligent system sentinel monitoring and alerting platform. |
+| 🤖 **Claude-Chef** | `TypeScript` · `Next.js` · `AI` | AI culinary assistant powered by Claude LLM integrations. |
+| 🎙️ **AI-Voice-Agent** | `Python` · `LangGraph` · `Speech` | Real-time conversational voice agent leveraging multi-agent workflows. |
+| 💼 **Assuredgig-mvp** | `Django` · `DRF` · `React` | Freelance & gig marketplace platform with real-time tracking. |
 
 <br/>
 
@@ -167,18 +177,18 @@ const yatin = {
 ## 🌟 Featured Projects
 
 <div align="center">
-  <a href="https://github.com/yatinsingh2007/shopsmart">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=shopsmart&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
-  </a>
-  <a href="https://github.com/yatinsingh2007/ReportLens-AI">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=ReportLens-AI&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
-  </a>
-  <br/>
   <a href="https://github.com/yatinsingh2007/CreditIQ">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=CreditIQ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
   </a>
-  <a href="https://github.com/yatinsingh2007/VintiCode">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=VintiCode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  <a href="https://github.com/yatinsingh2007/Assuredgig-mvp">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=Assuredgig-mvp&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  </a>
+  <br/>
+  <a href="https://github.com/yatinsingh2007/Cordis-Sentinel">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=Cordis-Sentinel&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  </a>
+  <a href="https://github.com/yatinsingh2007/Claude-Chef">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=yatinsingh2007&repo=Claude-Chef&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
   </a>
 </div>
 
@@ -218,7 +228,7 @@ const yatin = {
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://github.com/yatinsingh2007/yatinsingh2007/blob/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/yatinsingh2007/yatinsingh2007/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 </div>
 
 <br/>

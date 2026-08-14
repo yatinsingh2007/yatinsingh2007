@@ -1,0 +1,613 @@
+<svg viewBox="0 0 380 340" width="380" height="340" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+
+    <style>
+      .title { fill: #8b949e; font-size: 12px; font-weight: 600; }
+      .donut-text { font-size: 11px; fill: #39d353; white-space: pre; font-weight: bold; }
+      .frame { opacity: 0; animation: anim-frame 2.40s infinite; }
+      @keyframes anim-frame {
+        0% { opacity: 1; }
+        4.17% { opacity: 1; }
+        4.18% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .dot { animation: pulse 2s infinite ease-in-out; }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+      .glow { filter: drop-shadow(0px 0px 8px rgba(57, 211, 83, 0.3)); }
+    </style>
+    <defs>
+      <linearGradient id="donutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0d1117" />
+        <stop offset="100%" stop-color="#161b22" />
+      </linearGradient>
+      <linearGradient id="donutBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#39d353" />
+        <stop offset="50%" stop-color="#58a6ff" />
+        <stop offset="100%" stop-color="#bc8cff" />
+      </linearGradient>
+    </defs>
+
+    <rect x="1" y="1" width="378" height="338" rx="12" ry="12"
+          fill="url(#donutBg)" stroke="url(#donutBorder)" stroke-width="1.5" class="glow" />
+    
+<circle class="dot" cx="18" cy="18" r="5" fill="#ff5f56" />
+<circle class="dot" cx="34" cy="18" r="5" fill="#ffbd2e" />
+<circle class="dot" cx="50" cy="18" r="5" fill="#27c93f" />
+<text x="190.0" y="22" text-anchor="middle" class="title">yatin@github ~ $ ./donut.c</text>
+<line x1="0" y1="34" x2="380" y2="34" stroke="#30363d" stroke-width="1" />
+<g class="frame" style="animation-delay: 0.000s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">             $$$$@$@#@*@$@$@$$$             </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">      #$$$$$$@@@@@@@!@!@!@@@@@@@$$$$$$      </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">   ###$$$$$$$$@:$~$~~$~$~~$:$;$$$$$$$$##    </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">  *######$!#=$~#,,#..#.#..#,$$:$!#!#$##***  </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve"> !!!***#*:#:*#:*..#..#.#..*..*:*:###*****!! </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve"> ==!,!!,!.*.*..*..*..*.*..*..*.*..*.!!,!!== </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve"> ;==,=!.!.!.!..!..!..!.!..!..!.=!.!.!=!===; </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve"> -::;;;.;.;..=.=..=..=.=..=..=.=.;;;;;.;::~ </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">  --~~-::~:~.:.:..:..:.:..:..:.:.:.:-:~---  </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    ..,,--,~,~,.~.~..~.~..~.~.-~,~-.,,..    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">      ..........,.,..,.,.,..,........       </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">             ..................             </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.100s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                   $ @#@$@@@$$              </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">            #$$$#@#@ @$!$#@$@$@$$$$$        </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">        $$$$$#$*$$=$;;$;$$=$=$$$#$$####     </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">     ####$#!#=#;:#~#~-#~~#~##:*=#!#*****    </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">    ######=;*:*--*.**.*..*.,*-!:!=*!!*!!!!  </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  ***!**!*;:*-!..!..!.*!.*..!-!;!=!=!=====  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">  !!!=!==;!:!,.!.!..=..=.=..=~=;;:;:=;=;;:  </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve"> ;;;===:=;=;=;,;..=.;..;.;..:::~:-:~::::::  </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve"> :::;;~;,;~:~;~:~.:..:.:.~..~.~,~-~--,----  </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve"> ~:::~~-~~~~-.-.~,.-.-.,.,.,.,...........   </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve"> -----,--,.,.,.,........................    </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">  ..................................        </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    .......................                 </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.200s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                  @ @@@@@@@@@               </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">              $#$*@$#$!$$@$@$$$$$$          </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">          $$$#$*$$!#!$#=#!#!#########       </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">       ##$#*#!##;*:#*~*~#*:!;!=*#******     </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">     ###*!*;**~*~*!,!.!!,*,!~!:!;!=*!!!!    </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">    *****!;!~!,!!.!.==.=.=.=,=~=;=======    </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">   !!!=!:=~!-==.=.;;.;.;.:.:.:-:::;:;:;:;   </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  ===;=:=~=-=:;;.;.:.:.:.~.~,~~,~--~~~:::   </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve"> ;==;;:;;:;:.:.~-~-.--,,.,.,.....,,,,---~   </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve"> ;;::::::-~-~,-,-.,....................,    </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve"> ::~:~~~--,,,,..........................    </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve"> ~-~~~,-,,............$#*;-............     </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">  --,,,...........=*###*!;:,.........       </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">   ,.............-:=!!**=;:-,......         </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    ............,-~;=!==;:-....             </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">      ...........,-~---,...                 </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">           ........                         </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.300s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">             $ $ $$$$@$@$$$$$$$$            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">          $$$$$*#!#!#####!*!*#$####         </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">        ###*#!#*#*:!~!~*:!!;!!!*!***        </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">     #*##*#*:!~*-!,!=!,=,=-=!:!!==!!!       </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">    ****;*!!!,!.!.=.=.;;.;:;;;~;==;===      </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">   !**!;!=!===.;.;:~:.::~~~.~~~~:::;:;;     </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">  =!!!====;;;;::~~~~.--.,,,,.,,---~::~;     </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  =====;;::::~.~-,,..............,--~~:     </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve"> ;=;;;;::~~~---....................,,--     </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve"> ;;;:::~~-~-,........... ...........,,-     </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve"> ::::~~~--,,.......      :...........,      </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">  ~~~~~-,,.......:    *#*=:...........      </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">  -~---,,,.......~!#$@@$#*;~--.......       </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">   --,,,,........:=*#$$##*=;:~--,..         </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    .,,........,-:;!!****!!;:~,,..          </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">     ........,,-~::;=!!!!=;:-..             </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">       ......,,-~~:::;::~-,.                </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">           ............                     </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.400s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">            $ $@$@$$$$@$$$$$$$              </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">         $#$$#$#$##**=**=**$#####           </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">        #$#$*=*#**!**!!-!!!;!!!****         </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">      *##*;*~**!!=!====.====~!==!!!*        </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">     ****!!!!=!=;;:;:::~::::;;;=====!       </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">    **!!!!!==;;;:~~~~-,-----~~~:;;;;==      </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">   !!!!!==;;;:~~~-,........,,,-~~:::=;      </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  ==!====;::~~-,,..............,-~:::;      </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">  =====;;::~--,.................,-~~:::     </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">  ;;;;;;::~--,.....       ......,-~~::      </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">  ;;;;;::~--,....         .....,--~~~~      </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">  ::::::~~--,,...        =;--,---~~~~-      </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">  ~~:::~~~---,,..~== !*##**;:::~~~~~-       </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">   ~~~~~~~~~---~:;!*#$@@$$#*!=;:::~-        </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    --~~~~~~~~~:;=!##$$$$#**!=;;~~,         </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">     ,--~~~~~::;;=!***##**!!==;~-.          </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">      ..,-~~~~:;;;===*!*=!!=::-.            </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">         .,,-~~::;;====;;:~-.               </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">            ...,,-----,,.                   </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.500s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                @@$@$@$@@$$                 </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">            $$$$$$##$###$##$$$              </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">         $$$####******!!!****####           </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">       #####*****!!!!!!!!!!!!!!**#*         </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">      ###**!!*!!==;;;;;;;;;=!=!!!!**        </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">     ****!!!==;;::~~----~~~~:;;==!!!!       </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">    !***!!!=;;:~~-,.......,,-~:;;==!!=      </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">   =!!!!!==;::~-,...........,-~:;;====      </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">   =!!!!==;;:~,,.....  ......,-~:;====;     </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">   =!====;;:~~,...        ...,-~::;===;     </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">   ======;;:~~,..         ..,-~:;;;==;;     </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">   ;=====;;::~-,-         :~~;:;;;==;;:     </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">   :;;===;;;;::;:::     =!!=!!======;:      </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">   -:;;;========!!*####$$$##**!!===;:-      </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    ,~:;;;====!!**##$@@@@$$##*!!!=;:-       </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">     -:;;;;===!!**##$$$$$$##**!!=;:,        </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">      .-::;;==!!!***######*!!!=;;:          </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">        .~~::;===!!!!!***=*!=;:~,           </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">          ,.~~:;;;========::-,.             </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">              .,,~-~~~~--,.                 </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.600s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                @$@$$$$$$@@@                </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">             $$$############$$$             </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">          #####**!!!!!!!!!!**##$##          </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">        ###*#*!!!!!======!!!!!*#*###        </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">       ###**!!!==;:::~~:::;==!!!***##       </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">      ****!!!=;;:~-,,,,,,-~:;;=!!!****      </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">     !***!!!=;:~-,........,-~:;=!!!***!     </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">     !**!!!==;~-,..........,-~;=!!!!**!=    </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">    =!**!!!==;~-..        ..,~;;=!!!**!=    </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">    =!!*!!!!=;:-.          .-~;=!!!!*!!=    </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">    ;!!!*!*!!==;:          ~;;!!!*!*!!!;    </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">    ;=!!*******!!=        =!!*!*****!!=;    </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">    ~;=!*****######**!!*####*******!!=;     </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">     :==!****###$$$$@@@$$$$$###****!=;:     </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">      ~;=!****##$$$@@@@@$$$$###***!=;:      </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">       ~:=!!****##$$$$$$$$###***!!;;-       </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">        -~;==!*****######*****!!=;:-        </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">          -~:==!!**********!!=;::,          </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">            .-~~;;=======;;;:~,             </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                ..---~~-.--.                </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 0.700s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                $$$$$$$$$$$$@@@$            </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">             #$$##*********##$$$$$#         </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">           ####*!!*!!!!!!!!**####$$$*       </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">          ###**!!===;;;:;;=!!***##$$$#      </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">        *##**!!==;~~----~~:;=!!**######!    </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">       **#**!!=;:-,......,-~;;=!**#####*    </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">       *****!!;:-,.........-~;=!***####*!   </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">      !**#**!!;:-...      ..~:=!!**####*!   </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">      !*####**=;:.         ,:;=!***###**!   </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">      !*######*!=-         :;=!!********!;  </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">      =**#######*!:       ;=!****#*****!=:  </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">      =!*###$$$$$$##!  !*****#####****!!=   </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">      :!!*##$$$@@@@@$$$$#########****!==:   </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">       ;!!*##$$$@@@@@@$$$$$#####****!!=~    </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">       -;=!**###$$$$$$$$$$####**!!!!=;:     </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">         :;=!!**###########**!!!!!==:~      </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">          -:==!***********!!!!!!;;::        </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">            ,~:;==!!!!!!!!!===:;~~          </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">              .,-::;-;;;;~::-~-.            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                   ..,,.,,..                </text>
+</g>
+<g class="frame" style="animation-delay: 0.800s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                   $$$$$$$$$$@@@$           </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">                ###*******###$$$$@@$        </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">              ##**!=!!!!=!!!*###$$$$$$      </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">            *#*!!===;;;;:;==!!*##$$$$$$#    </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">           ***!==;:~-----~::==!*###$$$$#*   </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">          ****!=;~-,.....,~:;=!!*###$$###=  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">         *##**!=:~,.......,-:=!**########*  </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">        =*###**=;~,..     .-:=!!*#######**= </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">        !######*=:,.       ~;=!**#######**= </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">        !#$$$$$#*=-       ~;=!***######**!= </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">        !#$$$$$$$*=      :=!*****####****!; </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">        !##$$@@@@$#*! =!!!*******#*****!!=  </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">        ;*##$$@@@@$$###***************!==;  </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">        ;=*##$$$$$$$$#######*******!*!==;   </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">         ;!!*###$$#$#####*******!!!!!=;:~   </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">         ,;==***########*****!*!!!==;:-~    </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">          ,~==!!!!!!!!!*!*!!!!!===;;:,      </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">            -:;;=!=====!==!==;=;;:,~.       </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">              ,-~:;;;;;=;;;~;::,~.          </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                 .,--~~-~~--,,.             </text>
+</g>
+<g class="frame" style="animation-delay: 0.900s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                         $$@@@@@            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                    #######$$$$@@@@$        </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">                  **!!!!!**###$$$@$$$$      </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">                *!=;===;;;!!*##$$$$$$$$#    </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">               !!=;;:~~:::;=!*##$$$$$$$#*   </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">             =!!=;:-,,.,--:;!**###$$$$$##!  </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">             !!=;:-,.....-:;!!**###$$$###*  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">            **!=;:-......,:;=!**########**= </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">           !*#*!=;~....  -:=!!**########**= </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">          ;*#$$#*!;-.    ~;=!****#####***!= </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">          =#$$$$$#!:.   :;=!!****###****!!= </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">          !#$$@@$$#!   :;=!!!*********!.!=; </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">          !#$$@@$$#*!===!!!!*********!.!=;  </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">          =*#$$$$#*!!!!!!!!********!!!!=;~  </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">          ;!*####****!!!!!!!!*!!!!!!.!=;~   </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">          ~=!!******!!!!!!!!!!!!!!=.=;;~    </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">           :==!!!!!!!!!!!!!!!==!===;;:-     </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">            :;;==!!==!!=========;:;:~,      </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">             ~:;::;;;;==;=;=;:;:~:~-.       </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">              .-::::;:;::;::~:~-,-,         </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                 .-~~-~~-~--,.,.            </text>
+</g>
+<g class="frame" style="animation-delay: 1.000s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                           @@@              </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                      ####$$$@@@@@$         </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                    !!!!*###$$$$@@$$#       </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">                  =;::;=!**#$$$$$$$$$#      </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">                 =:;-~:;=!*###$$$$$$$##     </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">                ;:--,,-:=!**###$$$$$$##*    </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">               ;;~-...-:=!***###$$$$###*=   </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">               ;:~,...-:=!**##########**!   </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">              ==;~,...-;=!!**#########*!!   </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">             ;!==;:~..~;=!!****####***.!!   </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">             !*##*=;~,;==!!*********..*!=   </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">             *#$$$$#!:;=!!!******..**!!=;   </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">            ;*$@@@$$:;==!!!!***.***!!!=;~   </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">            =*$$$$#:;;===!!!!..!!!!!=..;~   </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">            =*##*!;;;===!!!!.!!!!!...=;:    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">            :!!!=;;;;======.!!==..==;;:     </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">            ~;===;;;======.====.==;;:~,     </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">             :;;;;;;;=;==;==;;.=;;::-,      </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">             ~~::;;;;;;;;;;;;.;::~~-.       </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">              -~:::::;:;:;::~::~~-,         </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">               ,~~~~~:~:~::~-~--,.          </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                 .,--------,,..             </text>
+</g>
+<g class="frame" style="animation-delay: 1.100s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                     #$$$@@@@$$$            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                   !*##$$$$@@@$$#           </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">                  ;!**##$$$$$$$$$#*         </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">                  :=!*##$$$$$$$$##*=        </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">                 ,:=!**##$$$$$$$###*        </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">                 ,:=!**#####$#####**=       </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">                ~.:=!***#########**!=       </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">                -.;=!!***######...*!=       </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">                ~-;=!!.........#***!=       </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">                :~;=!!***********!!!;       </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">               :!~;==!!!*******....=;       </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">               ;*:;==!!!!......!!!==;       </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">               =#:;;==..!!!!!!!!===;:       </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">               !-:;;=.!!!!!!!!.....~~       </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">               !~:;;=====.....===;;:        </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">              ~;~:;;;==.-======;;::~        </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">              ~~~::;;;;===;;;;;::~~         </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">              -~~:::::.;;;;;:::~~-,         </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">              ,-~~~::::::::::~~--,          </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">               ---~~~::::~~~---,.           </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">               .,---~-~~~---,,,             </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                 .,,,-,---,,,.              </text>
+</g>
+<g class="frame" style="animation-delay: 1.200s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                #$$$@@@$$$$#                </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">               *#$$$$$$$$$$#*               </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">              !*##$$$$$$$$$#*!              </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">             ;!*##$$$$$$$###**;             </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">             =**,####$$#####*!=             </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">            :=!**,########.**!=             </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">            ;!!**#..,..,..#**!=;            </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">            ;=!!***######***!!=;            </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">            ;=.!************!.=;            </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">            ;=!.............!!=;            </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">            ;==!!!!******!!!!=;;            </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">            :;==!!!!!!!!!!!!==;:            </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">            :;................;:            </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">            ~:;=====!!!!=====;~~            </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">            ~:;;;==========;;;:~            </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">            -~::;,........-;:::-            </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">             ~~:,;;;;;;;;;;,:~~,            </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">             -~~::::;;;;::::~~-             </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">             ,--~::::::::::~--,             </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">              ,-~~~~~~~~~~~--,              </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">               ,,,--------,,,               </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                ..,-----,,,.                </text>
+</g>
+<g class="frame" style="animation-delay: 1.300s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">             $@@@@@$$##                     </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">           #$$@@@$$$$##*!                   </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">         *#$$$$$$$$$##**=:                  </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">        =###$$$$$$$$##*!=:                  </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">        *###$$$$$$###**!=:-                 </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">       =**####$$####***!=:,                 </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">       !!**#########***!=;.~                </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">       =**...######***!!=;.-                </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">       =!!***.........!!=;,~                </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">       ;=!************!!=;~:                </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">       ;=....*******!!!==;~!:               </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">       ;==!!!......!!!!==;:*;               </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">       :;===!!!!!!!...===;:#=               </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">       ~:....==!!!!!!===;;:~!               </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">        :;;==.....======;;:~!               </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">        ~::;;;====.~===;;;:~-~              </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">         ~~::;;;;;==.;;;;::~~~              </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">         ,-~~:::;;;;;;:::::~~-              </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">          ,--~~~:::::::::~~~--              </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">           .,--~~~~~:::~~~~--               </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">             ,,----~~~-~---,                </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">               ,,,,--,--,,.                 </text>
+</g>
+<g class="frame" style="animation-delay: 1.400s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">              @@@                           </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">         $@@@@$$$$####                      </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">       #$$@@$$$$##**!!!!                    </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">      #$$$$$$$$$#**!=;::;=                  </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">     ##$$$$$$$###*!=;~~,::=                 </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">    *##$$$$$$###**!=;~,,-~:;                </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">   =*###$$$$####**!=:,...-~:;               </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">   !*##########**!!=:-....~:;               </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">   !!**########**!!=;-...-~;==              </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">   =!***######****!=;~..-:;==!;             </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">   =!!...********!!=;;,~;=###*!             </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">   ;=!!**..******!!==;:!#$$$$#*             </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">   ~;=!!!**..***!!!!=;;~$$@@@$*;            </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">   ~:..=!!!!*..!!!!===;;:##$$$#=            </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">    :;=...=!!!!.!!!!===;;;=*#**;            </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">     :;;==.===!!.======;;;;=!!!:            </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">     ,~:;;==.====.======;;;====:            </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">      ,~~:;;=.;;==;==;=;;;;;;;~             </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">       .-~~::;;;;;;;;;;;;;;::~~             </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">         ,-~~:::::;:;:;:::::~-              </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">           ,-~~-~~:~:~:~~~~--               </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">             ..,--,------,.                 </text>
+</g>
+<g class="frame" style="animation-delay: 1.500s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">            @@@@@$$                         </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">        $@@@@$$$########                    </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">      $$$$@$$$###**!!*!!!*                  </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">    #$$$$$$$$##*!=======;=!*                </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">   *#$$$$$$##**!=;:::~~:;;=!!!              </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">  !##$$$$$###**==:~-,,.--::=!!=             </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  *###$$$###***!;:-.....,-:;=!!             </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve"> =**########**!!=:,......,:;=!**            </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve"> !**########**!!=:-  ...,~;=!##*!           </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve"> =!***#####***!!=;~    .-;!*##$#*;          </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve"> =!!****###****!!=;:   .:!#$$$$$#!          </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve"> :=!!**********!!!==:   =#$@@@$$#!          </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">  ;=!!!*********!!!!==;!*#$$@@$$#!          </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">  ~;=!!!!!*******!!!!!!!**#$$$$#*=          </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">   ~;==!!!!!!!*!!!!!!!!****####*!;          </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">    ~:=====!!!!!!!!!!!!!********=-          </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">     -:;;=====!!=!!!!!!!!!!!!!==:           </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">      ,~:;.;=========!!!==!====:            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">       .-~:::;;;=;=;==;;;;;:;:~             </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">         .-,~:::::::;::;;::~-.              </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">            .-.-~-~-~~----.                 </text>
+</g>
+<g class="frame" style="animation-delay: 1.600s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">           $@@@$$$$$$$$$$                   </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">        $@@@$$#####*****####                </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">      $$$$$$####**!==!!!=!!*##              </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">    #$$$$$$##**!=;;;:;;====!!*#*            </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">   *#$$$$###*!=;;::----~~:===!***           </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  =##$$$###*!!=;~-,.....,-~;=!!***          </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">  *########**!=;-........,~;=!**##*         </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve"> =*########**!=:-.     ...~:=**###*=        </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve"> =**#######**!=;~       .,~;!*#####!        </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve"> ;!**######***!=;~       -=*#$$$$##!        </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve"> :!****####****!==:      =*$$$$$$$#!        </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">  =!!*****#********!!= !*#$@@@@@$#*!        </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">  ;==!**************####$$$@@@$$$#*;        </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">   ;;=!*!*******#######$$$$$$$$##*!;        </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">   -::=!=!!!*****########$$$###*!!;         </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">    -~:===!!!*!****########*****!;,         </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">      ,:;:===!=!!!!!!**!!!!!!!!=~           </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">       .~-:;;=;=====!=======;;:-            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">          .~,~::;;:;;;=;;::~~,              </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">             .,,--~~-~~--,.                 </text>
+</g>
+<g class="frame" style="animation-delay: 1.700s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">            $@@$$$$$$$$$$$$$                </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">         #$$$$####********###$#             </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">       *$$$####**!!*!!!!!*!!*####           </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">      #$$$###**!!;=;;;;;;==!!**###          </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">    !######**!==;:~----~~:;;=!!!*##*        </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">    *#####**!!;;~-.......,-:;=!***#**       </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">   !*#####*!!=;:,.........,-:;=!*****       </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">   !*####**!!=;~..      ...-:=!******!      </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">   !**###***!=;:,         .::!**####*!      </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">  ;!***#****!!!;:         -=!*######*!      </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">  :=!****#*****!!;       :!*##$####**!      </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">   =!*****#####*****!  !*$$$$$$$###*!=      </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">   :==!****########$$$$$@@@@@$$$##**!;      </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">    ~=!!!***#####$$$$$@@@@@@$$$##*!=;       </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">     :;=!!*!***###$$$$$$$$$$$##**!=;-       </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">      ~:==!!!!****##########**!!=;:         </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">        :~;;=!!!!!*******!***!!;:-          </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">          ~~;:;===!!!=!!!!!=;;~.            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">            .-~-::~;;;:;;::-,.              </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                ..,,.,,..                   </text>
+</g>
+<g class="frame" style="animation-delay: 1.800s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                @$@$$$$$@@@@                </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">             $$$$##########$$$$             </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">          ##$##**************#####          </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">        ####****!!!======!!!****####        </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">       ##****!!=;;;::~~::;;;=!!***##*       </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">      *****!!==::~--,,,,--~:;;=!******      </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">     !****!!=;:~-,........,-~:;=!!****!     </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">    =!***!!=;::-,..........,-~;;=!!****     </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">    =!***!!==:~,..        ..-~;;=!!***!=    </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">    =!!**!!==;~-.          ,~:;=!!!**!!=    </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">    =!!!!!!!!==;~          :;=!!!**!!!!;    </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">    ;=!!!**!***!!=        =!!******!!!=;    </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">     ;=!!****#*#####*!!*#######****!!=;~    </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">     :;!!!!**###$$$$$$@$$$$$###***!!==:     </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">      :==!!!*###$$$$@@@@$$$$##**!!!==~      </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">       -;=!!!!*####$$$$$$$###**!!!=;~       </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">        ,:;=!!!!***######**!!!!==;~-        </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">          ,::;=!!!!!!!!!!!!!!==:~-          </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">             -::;:;======;;;~:-.            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                .,-.----~-..                </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 1.900s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                 $$@@@@@@@@@                </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">              $$$##$###$###$$$$$            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">           ####**************##$#$$         </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">         ****!!!!!=!!!!!!!=**!**#####       </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">        ****!!===;;;;;;;;;===!!!!**###      </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">       !!!!==;;:~~------~~:;;;==!!*****     </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">      =!!==;;::~,,.......,-~~:;;=!!!***!    </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">      ====;;:~-,...........,-~:;;==!!!!!=   </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">     ;===;;:~-,......  .....,,~::;==!!!!=   </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">     ;===;;:~-,...        ...-~~:;;====!=   </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">     ;;==;;;:~-,..         ..,~~:;;======   </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">     :;;==;;;::;;:         ---~:;;;;====;   </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">      :;=======!!!!=     :;:;::;;;;====;:   </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">      -:;==!!!**##$$$$###*!!=;======;;;:-   </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">       -:;=!!**##$$@@@@$##**!!=====;;:~,    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">        ,:;=!!**##$$$$$$##**!!===;;;::-     </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">          ::;=!***######***!!==;;;::~.      </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">           -~:;=!****!!!*!!===;;:~~.        </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">             .,~:;===!!!==;;::~~,.          </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                 .,--~~~~~-,..              </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 2.000s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">              $$$$$$$$$$$$@$@$ $            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">           #####$**!**=**##$#$$$$#$         </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">         ****!!!;!!!***~*!**#*##$#$#        </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">        *!!!===!====.===.!!!*-!~*=*##*      </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">       !=====;;;;:::~::;;:;;===!!*!****     </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">      ==;;;;::~~~-----,~~~~:;;;===!!*!**    </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">      ;;;::~~-,.........,,-~~~::;;===!!!!   </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">      ;:::~-,..............,,-~~::;;===!==  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">     :::~~-,.................,-~~:;;;=====  </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">      :~~~-,......       .....,--~::;;;=;;  </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">      ~~~~--,.....         ....,-~~::;;;;;  </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">      -~~~~~--,,-;=        ....,--~~::::::  </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">       -~~~~~::;=**##*! ==:,.,,--~~~::::~~  </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">        -~:::;==*#$$@@$#*!;:----~~~~~~~~~   </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">         ,~:;==!**#$$$$##!=;:~~~~~~~~~--    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">          .-~:;=!!**##***!=;;::~~~~~--.     </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">            .-~;;!!*!!*===;;::~~~~-,..      </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">               .-~:;=;==;;:::~~-,,.         </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                   ..,-----,,...            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 2.100s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">            $$$$$$$$$$$$$$$ $ $             </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">          ###$#*!*!**#=#!#!#*$$$$$          </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">        ****!!!!;!!:*~*~*:*#*#=#*###        </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">       !!!!==!:!=!!,!.!=!,*-*~!:*#*##*#     </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">      ===;==;;;;;:;.;;.;.=.=.!-!*!******    </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">     ;;:;;::~~~~.~~~~~~::;;.;====!!!;!!*!   </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">     ;:~:~~---,.,,,,.--.~-~~::.;;;====!!!=  </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">     ~~~-,,..............,-,--:~:;;;======  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">     ---,....................---~~:;:;;;;=; </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">     -,,........... ...........,,~-~~:::;;; </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">      ,...........:      .......,,-~-~::::: </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">      ...........-=*#*    :.......,,-~~~~:  </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">       .......,-~;*#$@@$#!~........,,---~-  </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">         ..,--~:;=*#$$$#*=:........,,,---   </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">           .,--:;=!*****!;:-,........,,.    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">             ..-::=!!!!=;;:~-,,........     </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">                ..-~~:;;::~~,,......        </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">                     ............           </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 2.200s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">               @@@@@@@@@ @                  </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">          $$$$$$@$@$$!$#$@*$#$              </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">       ###########=#=#==#!#$*$#$$$          </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">     ******#*=*;*:**~*~*#:#;##!#*#$##       </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">    !!!!!!!;!:!~!,!.!!.*,**~*~*#=*!*###     </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">    =;==;==:=~=,=.=.=.;!.!.=!,!~!********   </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">   ;:;;;;::;:-:.:.;.;.;.;;.=.=.=!:=;!=!!!   </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">   ::~~~~-~-~~~.~.~.~.~.:.;.:;.;-=~===;==!  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">   ~---,,,,.,,.,,.,.,,--~-.-~~:.;-:;;=;;=;= </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">    ,,...................,.-,-,~-~:~::;::;; </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">    ..........................,.----~~~:~:: </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">      ...........-;*#$............,,----~~~ </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">       .........,~=!*#$#*;...........,,---  </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">         ......,-:;=*!!!=:~.............,,  </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">             ...,-~;==!=;~-.............    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">                 ...,-~---,...........      </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">                         .......            </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+<g class="frame" style="animation-delay: 2.300s;">
+  <text x="24" y="45.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="57.6" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="70.3" class="donut-text" xml:space="preserve">              $$@@@$@#@ $                   </text>
+  <text x="24" y="82.9" class="donut-text" xml:space="preserve">        $$$$$@$@$@#$!$@ @*@$$$$$            </text>
+  <text x="24" y="95.6" class="donut-text" xml:space="preserve">     ####$$#$$$=$=$$=$=;$=!$*$#$$$$$        </text>
+  <text x="24" y="108.2" class="donut-text" xml:space="preserve">   ******#!#=#::#~#~-#~~#~#::#=#!######     </text>
+  <text x="24" y="120.9" class="donut-text" xml:space="preserve">  !!!!*!!*=*;*~*,.*..*.*..*--*:*;=######    </text>
+  <text x="24" y="133.5" class="donut-text" xml:space="preserve">  ===!=!=!=!;!-!..!.!!.!..!.,!-!:**=******  </text>
+  <text x="24" y="146.2" class="donut-text" xml:space="preserve">  =;=;;=:=:=;=~=..=.=..=..!.=,-!:!;==!=!!!= </text>
+  <text x="24" y="158.8" class="donut-text" xml:space="preserve">  ~:::::~:-:-::;..;.;..;.;..;,;=;=:=:====== </text>
+  <text x="24" y="171.5" class="donut-text" xml:space="preserve">  ----,--.---~.~..~.~.~..:.:.::~;~;,;-;;;;: </text>
+  <text x="24" y="184.1" class="donut-text" xml:space="preserve">   ....,.,,.,.,.,.,.-.-.-~,-.~.~.~~~:~~:::: </text>
+  <text x="24" y="196.8" class="donut-text" xml:space="preserve">    ........................,.,,,.-,--,---- </text>
+  <text x="24" y="209.4" class="donut-text" xml:space="preserve">        ..................................  </text>
+  <text x="24" y="222.1" class="donut-text" xml:space="preserve">                 .......................    </text>
+  <text x="24" y="234.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="247.4" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="260.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="272.7" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="285.3" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="298.0" class="donut-text" xml:space="preserve">                                            </text>
+  <text x="24" y="310.6" class="donut-text" xml:space="preserve">                                            </text>
+</g>
+</svg>

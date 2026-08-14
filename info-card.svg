@@ -1,48 +1,71 @@
-<svg viewBox="0 0 540 246" width="540" height="246" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+<svg viewBox="0 0 580 270" width="580" height="270" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
 
     <style>
       
-      .row { opacity: 0; transform: translateX(-8px); animation: printline 0.4s ease-out forwards; }
+      .row { opacity: 0; transform: translateX(-10px); animation: printline 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
       @keyframes printline { to { opacity: 1; transform: translateX(0); } }
+      .dot { animation: pulse 2s infinite ease-in-out; }
+      @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.6; transform: scale(0.92); } }
+      .blink { animation: blinker 1s infinite; fill: #58a6ff; }
+      @keyframes blinker { 50% { opacity: 0; } }
+      .glow-border { filter: drop-shadow(0px 0px 6px rgba(88, 166, 255, 0.25)); }
     
-      .key { fill: #39d353; font-size: 13px; font-weight: bold; }
+      .key { fill: #58a6ff; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
       .val { fill: #c9d1d9; font-size: 13px; }
-      .title { fill: #8b949e; font-size: 12px; }
+      .title { fill: #8b949e; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
     </style>
-    <rect x="0.5" y="0.5" width="539" height="245" rx="10" ry="10"
-          fill="#0d1117" stroke="#30363d" />
+    <defs>
+      <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0d1117" />
+        <stop offset="100%" stop-color="#161b22" />
+      </linearGradient>
+      <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#58a6ff" />
+        <stop offset="50%" stop-color="#bc8cff" />
+        <stop offset="100%" stop-color="#39d353" />
+      </linearGradient>
+    </defs>
     
-<circle cx="18" cy="18" r="5" fill="#ff5f56" />
-<circle cx="34" cy="18" r="5" fill="#ffbd2e" />
-<circle cx="50" cy="18" r="5" fill="#27c93f" />
-<text x="270.0" y="22" text-anchor="middle" class="title">yatinsingh2007@github</text>
-<line x1="0" y1="34" x2="540" y2="34" stroke="#30363d" />
-<g class="row" style="animation-delay:0.00s">
-<text x="20" y="46" class="key">Education</text>
-<text x="116" y="46" class="val">BTech CSE (AI) '28 @ Newton School of Tech</text>
+    <rect x="1" y="1" width="578" height="268" rx="12" ry="12"
+          fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.5" class="glow-border" />
+    
+<circle class="dot" cx="20" cy="20" r="5.5" fill="#ff5f56" style="animation-delay:0.0s" />
+<circle class="dot" cx="38" cy="20" r="5.5" fill="#ffbd2e" style="animation-delay:0.3s" />
+<circle class="dot" cx="56" cy="20" r="5.5" fill="#27c93f" style="animation-delay:0.6s" />
+<text x="290.0" y="24" text-anchor="middle" class="title">⚡ yatinsingh2007@github ~ $ neofetch</text>
+<line x1="0" y1="38" x2="580" y2="38" stroke="#30363d" stroke-width="1" />
+<g class="row" style="animation-delay:0.10s">
+<text x="22" y="50" class="key">⚡ Education</text>
+<text x="136" y="50" class="val">BTech CSE (AI) '28 @ Newton School of Tech</text>
 </g>
-<g class="row" style="animation-delay:0.12s">
-<text x="20" y="72" class="key">Role</text>
-<text x="116" y="72" class="val">SDE Intern @ ByteBlock Technologies</text>
+<g class="row" style="animation-delay:0.20s">
+<text x="22" y="78" class="key">💼 Experience</text>
+<text x="136" y="78" class="val">SDE Intern @ ByteBlock | Ex-Full Stack Intern @ AssuredGig</text>
 </g>
-<g class="row" style="animation-delay:0.24s">
-<text x="20" y="98" class="key">Prev</text>
-<text x="116" y="98" class="val">Full Stack Intern @ AssuredGig</text>
+<g class="row" style="animation-delay:0.30s">
+<text x="22" y="106" class="key">🚀 Focus Area</text>
+<text x="136" y="106" class="val">Agentic AI Systems, Full-Stack & Scalable Cloud DevOps</text>
 </g>
-<g class="row" style="animation-delay:0.36s">
-<text x="20" y="124" class="key">Focus</text>
-<text x="116" y="124" class="val">Agentic AI, Full-Stack & DevOps</text>
+<g class="row" style="animation-delay:0.40s">
+<text x="22" y="134" class="key">💻 Tech Stack</text>
+<text x="136" y="134" class="val">Next.js 14, TypeScript, Node.js, Go, Python, Tailwind</text>
 </g>
-<g class="row" style="animation-delay:0.48s">
-<text x="20" y="150" class="key">Stack</text>
-<text x="116" y="150" class="val">Next.js, TypeScript, Node.js, Go, Python</text>
+<g class="row" style="animation-delay:0.50s">
+<text x="22" y="162" class="key">🧠 AI / ML</text>
+<text x="136" y="162" class="val">PyTorch, LangGraph, scikit-learn, RAG, LLM Agents</text>
 </g>
 <g class="row" style="animation-delay:0.60s">
-<text x="20" y="176" class="key">ML / AI</text>
-<text x="116" y="176" class="val">PyTorch, LangGraph, scikit-learn, RAG</text>
+<text x="22" y="190" class="key">⭐ Highlights</text>
+<text x="136" y="190" class="val">CreditIQ (92% acc. RAG), ReportLens-AI, ShopSmart</text>
 </g>
-<g class="row" style="animation-delay:0.72s">
-<text x="20" y="202" class="key">Projects</text>
-<text x="116" y="202" class="val">CreditIQ, ReportLens-AI, ShopSmart, VintiCode</text>
+<g class="row" style="animation-delay:0.70s">
+<text x="22" y="218" class="key">📫 Status</text>
+<text x="136" y="218" class="val">Open for SDE / AI Internships & Global Collaborations</text>
 </g>
+
+    <g class="row" style="animation-delay:0.80s">
+      <text x="22" y="246" class="key">❯</text>
+      <rect x="38" y="235" width="8" height="13" class="blink" rx="1.5" />
+    </g>
+    
 </svg>

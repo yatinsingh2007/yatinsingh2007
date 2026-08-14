@@ -6,20 +6,20 @@
       @keyframes printline { to { opacity: 1; transform: translateX(0); } }
       .dot { animation: pulse 2s infinite ease-in-out; }
       @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.6; transform: scale(0.92); } }
-      .blink { animation: blinker 1s infinite; fill: #58a6ff; }
+      .blink { animation: blinker 1s infinite; fill: #0969da; }
       @keyframes blinker { 50% { opacity: 0; } }
-      .glow-border { filter: drop-shadow(0px 0px 6px rgba(88, 166, 255, 0.25)); }
+      .glow-border { filter: drop-shadow(0px 0px 6px rgba(9, 105, 218, 0.18)); }
       .logo-row { opacity: 0; animation: fadein 0.4s ease-out forwards; }
       @keyframes fadein { to { opacity: 1; } }
     
-      .key { fill: #58a6ff; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
-      .val { fill: #c9d1d9; font-size: 13px; }
-      .title { fill: #8b949e; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
+      .key { fill: #0969da; font-size: 13px; font-weight: 600; letter-spacing: 0.3px; }
+      .val { fill: #24292f; font-size: 13px; }
+      .title { fill: #57606a; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; }
     </style>
     <defs>
       <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0d1117" />
-        <stop offset="100%" stop-color="#161b22" />
+        <stop offset="0%" stop-color="#ffffff" />
+        <stop offset="100%" stop-color="#f6f8fa" />
       </linearGradient>
       <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#58a6ff" />
@@ -40,7 +40,7 @@
 <circle class="dot" cx="38" cy="20" r="5.5" fill="#ffbd2e" style="animation-delay:0.3s" />
 <circle class="dot" cx="56" cy="20" r="5.5" fill="#27c93f" style="animation-delay:0.6s" />
 <text x="380.0" y="24" text-anchor="middle" class="title">⚡ yatinsingh2007@github ~ $ neofetch</text>
-<line x1="0" y1="38" x2="760" y2="38" stroke="#30363d" stroke-width="1" />
+<line x1="0" y1="38" x2="760" y2="38" stroke="#d0d7de" stroke-width="1" />
 <style>.logo-text { font-size: 7px; fill: url(#logoGrad); white-space: pre; font-weight: bold; }</style>
 <g class="logo-row" style="animation-delay:0.05s">
 <text x="24" y="59.0" class="logo-text" xml:space="preserve"> </text>
@@ -126,7 +126,7 @@
 <g class="logo-row" style="animation-delay:0.86s">
 <text x="24" y="257.5" class="logo-text" xml:space="preserve"> .*#%s`:s##ss###ss##sccs##%:</text>
 </g>
-<line x1="163.0" y1="46" x2="163.0" y2="282" stroke="#30363d" stroke-width="1" opacity="0.6" />
+<line x1="163.0" y1="46" x2="163.0" y2="282" stroke="#d0d7de" stroke-width="1" opacity="0.6" />
 <g class="row" style="animation-delay:0.10s">
 <text x="176.0" y="50" class="key">⚡ Education</text>
 <text x="290.0" y="50" class="val">BTech CSE (AI) '28 @ Newton School of Tech</text>

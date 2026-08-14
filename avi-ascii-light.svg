@@ -1,8 +1,8 @@
 <svg viewBox="0 0 414 668" width="414" height="668" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
 
     <style>
-      text { font-size: 7px; fill: #c9d1d9; white-space: pre; }
-      .title { font-size: 12px; fill: #8b949e; font-weight: 600; }
+      text { font-size: 7px; fill: #24292f; white-space: pre; }
+      .title { font-size: 12px; fill: #57606a; font-weight: 600; }
       .rowclip-rect {
         animation: wipe 0.35s steps(30, end) forwards;
         transform-box: fill-box;
@@ -12,7 +12,7 @@
         to   { transform: scaleX(1); }
       }
       .cursor {
-        fill: #c9d1d9;
+        fill: #24292f;
         opacity: 0;
         animation: cursor-move 0.35s steps(30, end) forwards;
       }
@@ -23,15 +23,15 @@
       }
       .dot { animation: pulse 2s infinite ease-in-out; }
       @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-      .glow { filter: drop-shadow(0px 0px 8px rgba(88, 166, 255, 0.28)); }
+      .glow { filter: drop-shadow(0px 0px 8px rgba(9, 105, 218, 0.18)); }
     </style>
     <defs>
       <linearGradient id="aviBg" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#0d1117" />
-        <stop offset="100%" stop-color="#161b22" />
+        <stop offset="0%" stop-color="#ffffff" />
+        <stop offset="100%" stop-color="#f6f8fa" />
       </linearGradient>
       <linearGradient id="aviBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#58a6ff" /><stop offset="50%" stop-color="#bc8cff" /><stop offset="100%" stop-color="#39d353" />
+        <stop offset="0%" stop-color="#0969da" /><stop offset="50%" stop-color="#8250df" /><stop offset="100%" stop-color="#2d8a56" />
       </linearGradient>
     </defs>
     <rect x="1" y="1" width="412" height="666" rx="12" ry="12"
@@ -41,7 +41,7 @@
 <circle class="dot" cx="34" cy="18" r="5" fill="#ffbd2e" />
 <circle class="dot" cx="50" cy="18" r="5" fill="#27c93f" />
 <text x="206.8" y="22" text-anchor="middle" class="title">yatin@github ~ $ render avatar.jpg</text>
-<line x1="0" y1="32" x2="413.6" y2="32" stroke="#30363d" stroke-width="1" />
+<line x1="0" y1="32" x2="413.6" y2="32" stroke="#d0d7de" stroke-width="1" />
 <clipPath id="clip0">
   <rect class="rowclip-rect" x="22" y="35.0" width="4.2" height="7.4" style="transform-origin: 22px center; animation-delay:0.00s" />
 </clipPath>

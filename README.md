@@ -43,28 +43,45 @@
 
 <br/>
 
-<!-- ░░ TERMINAL DONUT ANIMATION & NEOFETCH SHOWCASE ░░ -->
+<!-- ░░ TERMINAL SHOWCASE & LIVE HEATMAP ░░ -->
 <div align="center">
 
-<h3><code>yatin@github ~ $ ./donut.c && neofetch</code></h3>
+<h3><code>yatin@github ~ $ ./render_avatar.sh && ./donut.c && neofetch</code></h3>
 
 <table>
   <tr>
     <td valign="top" align="center">
-      <!-- 3D Spinning ASCII Donut Terminal Animation -->
-      <img src="./terminal-donut.svg" width="370" />
+      <!-- Animated ASCII Portrait (types itself in) -->
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./avi-ascii-light.svg" />
+        <img src="./avi-ascii.svg" width="370" />
+      </picture>
     </td>
     <td valign="top" align="center">
-      <!-- Animated Neofetch Info Card -->
-      <img src="./info-card.svg" width="480" />
+      <!-- 3D Spinning ASCII Donut (luminance-shaded) -->
+      <picture>
+        <source media="(prefers-color-scheme: light)" srcset="./terminal-donut-light.svg" />
+        <img src="./terminal-donut.svg" width="370" />
+      </picture>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- Live Animated Heatmap SVG -->
-<img src="./contrib-heatmap.svg" width="860" />
+<!-- Animated Neofetch Info Card (ASCII portrait logo + info rows) -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./info-card-light.svg" />
+  <img src="./info-card.svg" width="580" />
+</picture>
+
+<br/><br/>
+
+<!-- Live Animated Heatmap SVG (reveal + shimmer wave) -->
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./contrib-heatmap-light.svg" />
+  <img src="./contrib-heatmap.svg" width="860" />
+</picture>
 
 </div>
 

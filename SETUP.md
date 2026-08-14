@@ -16,26 +16,36 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r scripts/requirements.txt
 ```
 
-## 3. Generate the ASCII portrait (optional but recommended)
+## 3. One-shot build (recommended)
+`scripts/build_all.sh` regenerates every animated SVG in **both** dark and light
+variants (dark files have no suffix, light files end in `-light.svg`; the README
+serves the right one per viewer theme via `<picture>`).
+
+```bash
+# rebuild from an existing scripts/prepped.png
+scripts/build_all.sh
+
+# or, prep a fresh photo first (background removal + auto-crop + contrast),
+# then rebuild everything:
+scripts/build_all.sh path/to/your-photo.jpg
+```
+
+`prep_photo.py` removes the background (rembg), auto-crops to the subject so the
+ASCII fills the frame, and boosts local contrast. The result feeds both the
+standalone typing portrait (`avi-ascii.svg`) and the neofetch card's logo panel.
+
+### Individual generators (if you'd rather run them one at a time)
 ```bash
 python scripts/prep_photo.py path/to/your-photo.jpg   # -> scripts/prepped.png
-python scripts/make_ascii_svg.py                       # -> avi-ascii.svg
+python scripts/make_ascii_svg.py                       # -> avi-ascii.svg   (typing portrait)
+python scripts/make_info_card.py                       # -> info-card.svg   (neofetch + logo)
+python scripts/make_donut_svg.py                       # -> terminal-donut.svg
+python scripts/fetch_contributions.py                  # -> data/contributions.json
+python scripts/render_heatmap_svg.py                   # -> contrib-heatmap.svg
 ```
-If you skip this step, drop any other `avi-ascii.svg` in the repo root, or edit `README.md`
-to remove that `<td>` — the layout still works with just the heatmap + info card.
-
-## 4. Generate the info card
-Edit the `ROWS` list in `scripts/make_info_card.py` (it's already pre-filled with your
-ByteBlock / Next.js / PyTorch / CreditIQ / Netherlands details), then:
-```bash
-python scripts/make_info_card.py    # -> info-card.svg
-```
-
-## 5. Generate the live heatmap once, locally, to confirm it works
-```bash
-python scripts/fetch_contributions.py    # -> data/contributions.json (already tested — works)
-python scripts/render_heatmap_svg.py     # -> contrib-heatmap.svg
-```
+Prefix any of them with `THEME=light` for the light variant. Edit the `ROWS`
+list in `make_info_card.py` to change what the card says. If no `prepped.png`
+exists, the portrait/logo are simply skipped and the layout still works.
 
 ## 6. Push
 ```bash
@@ -44,16 +54,18 @@ git commit -m "init: animated terminal profile README"
 git push
 ```
 
-## 7. Confirm the daily automation
-Go to the repo's **Actions** tab → "Update profile art" → **Run workflow** (this is the
-`workflow_dispatch` trigger) to fire it once by hand. Check that it commits a fresh
-`contrib-heatmap.svg` and `data/contributions.json`. After that it runs automatically
-every day at ~06:17 UTC via the cron in `.github/workflows/update-profile-art.yml`.
+## 7. Automation status
+The only automated piece is the **contribution snake** (`.github/workflows/snake.yml`),
+which rebuilds `github-contribution-grid-snake*.svg` on the `output` branch daily.
+The donut, info-card, heatmap, and portrait SVGs are generated **locally** with
+`scripts/build_all.sh` and committed. To keep the heatmap fresh automatically you'd
+add a workflow step that runs `fetch_contributions.py` + `render_heatmap_svg.py`
+(both themes) and commits the result — not wired up yet.
 
 ## Notes specific to this build
 - `scripts/requirements.txt` = full deps (portrait + heatmap), for local use.
 - `scripts/requirements-ci.txt` = just `requests` + `beautifulsoup4`, used by the
-  GitHub Action so the daily job stays fast and doesn't need OpenCV/rembg.
+  snake Action so it stays fast and doesn't need OpenCV/rembg.
 - The scraper (`fetch_contributions.py`) was verified live against
   `https://github.com/users/yatinsingh2007/contributions` — it pulled real data
   (803 contributions in the last year, 13-day longest streak at time of writing) with

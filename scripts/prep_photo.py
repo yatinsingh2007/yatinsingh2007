@@ -38,6 +38,23 @@ def composite_on_white(rgba: Image.Image) -> Image.Image:
     return Image.alpha_composite(white_bg, rgba)
 
 
+def crop_to_subject(rgb: Image.Image, pad_frac: float = 0.05) -> Image.Image:
+    """Trim the white margins so the subject fills the frame (otherwise the
+    ASCII spends rows/cols on blank space and the face comes out tiny)."""
+    gray = rgb.convert("L")
+    mask = gray.point(lambda p: 255 if p < 245 else 0)   # non-white = subject
+    bbox = mask.getbbox()
+    if not bbox:
+        return rgb
+    l, t, r, b = bbox
+    pad_x = int((r - l) * pad_frac)
+    pad_y = int((b - t) * pad_frac)
+    w, h = rgb.size
+    box = (max(0, l - pad_x), max(0, t - pad_y),
+           min(w, r + pad_x), min(h, b + pad_y))
+    return rgb.crop(box)
+
+
 def main():
     if len(sys.argv) != 2:
         print("Usage: python prep_photo.py <source-photo.jpg>", file=sys.stderr)
@@ -52,6 +69,11 @@ def main():
 
     print("[prep_photo] compositing on white...")
     on_white = composite_on_white(no_bg).convert("RGB")
+
+    print("[prep_photo] cropping to subject...")
+    before = on_white.size
+    on_white = crop_to_subject(on_white)
+    print(f"[prep_photo]   {before} -> {on_white.size}")
 
     print("[prep_photo] boosting local contrast (CLAHE)...")
     cv_img = cv2.cvtColor(np.array(on_white), cv2.COLOR_RGB2GRAY)

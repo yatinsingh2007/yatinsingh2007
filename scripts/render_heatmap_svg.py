@@ -1,15 +1,33 @@
 #!/usr/bin/env python3
 """
 Draw the contribution calendar as rounded boxes, GitHub-green ramp,
-revealed with a one-shot diagonal slide-down (no looping).
+revealed with a one-shot diagonal slide-down, then kept alive by a slow
+diagonal "shimmer" wave that sweeps across the lit cells forever.
+
+Set THEME=light for the light-mode palette (used by the README's
+<picture> prefers-color-scheme variant).
 """
 import json
 import os
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.json")
-OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "contrib-heatmap.svg")
+THEME = os.environ.get("THEME", "dark").lower()
+_SUFFIX = "" if THEME == "dark" else f"-{THEME}"
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "contributions.json")
+OUT_PATH = os.path.join(os.path.dirname(__file__), "..", f"contrib-heatmap{_SUFFIX}.svg")
+
+DARK = {
+    "palette": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+    "lbl": "#8b949e",
+    "footer": "#c9d1d9",
+}
+LIGHT = {
+    "palette": ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+    "lbl": "#57606a",
+    "footer": "#24292f",
+}
+THEME_PAL = DARK if THEME == "dark" else LIGHT
+PALETTE = THEME_PAL["palette"]
 
 BOX = 10
 GAP = 3
@@ -98,8 +116,17 @@ def build_svg(data):
         0%   {{ opacity: 0; transform: translate(-6px, -6px) scale(0.4); }}
         100% {{ opacity: 1; transform: translate(0, 0) scale(1); }}
       }}
-      .lbl {{ fill: #8b949e; font-size: 10px; }}
-      .footer {{ fill: #c9d1d9; font-size: 11px; }}
+      /* Lit cells keep breathing: a diagonal brightness wave sweeps across
+         forever, phase-shifted per cell so it reads as a travelling ripple. */
+      .live {{
+        animation: reveal 0.5s ease-out forwards, shimmer 3.6s ease-in-out infinite;
+      }}
+      @keyframes shimmer {{
+        0%, 100% {{ filter: brightness(1); }}
+        50%      {{ filter: brightness(1.55) drop-shadow(0 0 2px currentColor); }}
+      }}
+      .lbl {{ fill: {THEME_PAL["lbl"]}; font-size: 10px; }}
+      .footer {{ fill: {THEME_PAL["footer"]}; font-size: 11px; }}
     </style>
     <rect width="100%" height="100%" fill="transparent" />
     ''')
@@ -125,9 +152,17 @@ def build_svg(data):
             color = PALETTE[level]
             delay = (w_idx + dow) * 0.006
             title = f'{day["count"]} contributions on {day["date"]}'
+            if level > 0:
+                # Second delay = shimmer phase; negative offset makes the wave travel.
+                phase = -((w_idx + dow) * 0.10)
+                style = (f'animation-delay:{delay:.3f}s, {phase:.2f}s; color:{color}')
+                cls = "cell live"
+            else:
+                style = f'animation-delay:{delay:.3f}s'
+                cls = "cell"
             parts.append(
-                f'<rect class="cell" x="{x}" y="{y}" width="{BOX}" height="{BOX}" rx="2" ry="2" '
-                f'fill="{color}" style="animation-delay:{delay:.3f}s"><title>{title}</title></rect>'
+                f'<rect class="{cls}" x="{x}" y="{y}" width="{BOX}" height="{BOX}" rx="2" ry="2" '
+                f'fill="{color}" style="{style}"><title>{title}</title></rect>'
             )
 
     # Legend: Less -> More

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 490 220" width="490" height="220" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular, Consolas, Menlo, monospace">
+
+    <style>
+      
+      .row { opacity: 0; transform: translateX(-8px); animation: printline 0.4s ease-out forwards; }
+      @keyframes printline { to { opacity: 1; transform: translateX(0); } }
+    
+      .key { fill: #39d353; font-size: 13px; font-weight: bold; }
+      .val { fill: #c9d1d9; font-size: 13px; }
+      .title { fill: #8b949e; font-size: 12px; }
+    </style>
+    <rect x="0.5" y="0.5" width="489" height="219" rx="10" ry="10"
+          fill="#0d1117" stroke="#30363d" />
+    
+<circle cx="18" cy="18" r="5" fill="#ff5f56" />
+<circle cx="34" cy="18" r="5" fill="#ffbd2e" />
+<circle cx="50" cy="18" r="5" fill="#27c93f" />
+<text x="245.0" y="22" text-anchor="middle" class="title">yatinsingh2007@github</text>
+<line x1="0" y1="34" x2="490" y2="34" stroke="#30363d" />
+<g class="row" style="animation-delay:0.00s">
+<text x="20" y="46" class="key">Now</text>
+<text x="124" y="46" class="val">Full-Stack -> AI/ML</text>
+</g>
+<g class="row" style="animation-delay:0.12s">
+<text x="20" y="72" class="key">Role</text>
+<text x="124" y="72" class="val">SDE Intern @ ByteBlock</text>
+</g>
+<g class="row" style="animation-delay:0.24s">
+<text x="20" y="98" class="key">Stack</text>
+<text x="124" y="98" class="val">Next.js, Node.js, Prisma, MySQL</text>
+</g>
+<g class="row" style="animation-delay:0.36s">
+<text x="20" y="124" class="key">ML</text>
+<text x="124" y="124" class="val">PyTorch, scikit-learn, LangGraph</text>
+</g>
+<g class="row" style="animation-delay:0.48s">
+<text x="20" y="150" class="key">Highlights</text>
+<text x="124" y="150" class="val">CreditIQ - 92% acc. credit risk RAG</text>
+</g>
+<g class="row" style="animation-delay:0.60s">
+<text x="20" y="176" class="key">Goal</text>
+<text x="124" y="176" class="val">MSc CS/AI, Netherlands</text>
+</g>
+</svg>

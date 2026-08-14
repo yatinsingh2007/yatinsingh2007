@@ -14,15 +14,16 @@ STATIC = os.environ.get("STATIC") == "1"
 # Edit this block to change what the card says.
 TITLE = "yatinsingh2007@github"
 ROWS = [
-    ("Now", "Full-Stack -> AI/ML"),
-    ("Role", "SDE Intern @ ByteBlock"),
-    ("Stack", "Next.js, Node.js, Prisma, MySQL"),
-    ("ML", "PyTorch, scikit-learn, LangGraph"),
-    ("Highlights", "CreditIQ - 92% acc. credit risk RAG"),
-    ("Goal", "MSc CS/AI, Netherlands"),
+    ("Education", "BTech CSE (AI) '28 @ Newton School of Tech"),
+    ("Role", "SDE Intern @ ByteBlock Technologies"),
+    ("Prev", "Full Stack Intern @ AssuredGig"),
+    ("Focus", "Agentic AI, Full-Stack & DevOps"),
+    ("Stack", "Next.js, TypeScript, Node.js, Go, Python"),
+    ("ML / AI", "PyTorch, LangGraph, scikit-learn, RAG"),
+    ("Projects", "CreditIQ, ReportLens-AI, ShopSmart, VintiCode"),
 ]
 
-WIDTH = 490
+WIDTH = 540
 ROW_H = 26
 TOP_PAD = 46
 BOTTOM_PAD = 18
